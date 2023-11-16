@@ -3,7 +3,7 @@ pipeline {
 stages{
         stage('Build') {
             steps {
-                sh "python hello.py"
+                sh "/Users/meghasravani/opt/anaconda3/bin/python hello.py"
 
             }
 
